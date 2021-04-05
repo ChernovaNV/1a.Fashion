@@ -1,0 +1,8 @@
+$bg: rgba(27, 27, 27, 0.9);
+
+
+// Mixins
+@mixin font($fz, $fw: 400) {
+  font-size: $fz;
+  $font-weight: $fw;
+}

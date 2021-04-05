@@ -1,0 +1,28 @@
+/* Grid area */
+
+.img-1 {
+  grid-area: img-1;
+}
+.img-2 {
+  grid-area: img-2;
+}
+.img-3 {
+  grid-area: img-3;
+  object-position: right top;
+}
+.img-4 {
+  grid-area: img-4;
+}
+.img-5 {
+  grid-area: img-5;
+}
+.img-6 {
+  grid-area: img-6;
+  object-position: top;
+}
+.text-left {
+  grid-area: text-l;
+}
+.text-right {
+  grid-area: text-r;
+}

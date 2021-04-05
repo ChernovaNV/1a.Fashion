@@ -1,0 +1,41 @@
+/* Buttons */
+
+button {
+	cursor: pointer;
+	background-color: inherit;
+	border: 0;
+	font-weight: inherit;
+
+}
+
+.btn {
+  width: 10rem;
+  position: absolute;
+  top: 13.2rem;
+  bottom: 0;
+  background-color: rgba(239, 220, 210, 0.9);
+  border: none;
+  z-index: 100;
+  color: rgb(180, 180, 180);
+  box-shadow: 0 0 10px 0px rgba(27, 27, 27, 0.6);
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(239, 220, 210, 0.8);
+  }
+  &--prev {
+    left: 0;
+  }
+  &--next {
+    right: 0;
+  }
+  &--quantity-pages{
+    display: block;
+    cursor: pointer;
+    height: 7rem;
+    border-right: 2px solid rgba(27, 27, 27, 0.1);
+    text-align: center;
+    outline: none;
+  }
+}

@@ -1,0 +1,14 @@
+/* Icons */
+
+.icon {
+  width: 6rem;
+  height: auto;
+  fill: rgba(255,238,255, 0.7);
+
+  .btn:hover & {
+    fill: rgb(255,238,255);
+  }
+  &--prev {
+    transform: rotateY(180deg);
+  }
+}

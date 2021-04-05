@@ -1,0 +1,31 @@
+/* Slider */
+
+.slider {
+  &__container {
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  &__track {
+    display: flex;
+    transition: .2s;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 175.4rem;
+    width: 100%;
+    min-width: 124rem;
+    background-color: rgb(237, 221, 210);
+    padding: 2rem 2rem;
+    margin: 0 auto;
+  }
+  &__item--first-page {
+    padding-left: 15rem;
+    margin-left: auto;
+  }
+  &__item:nth-child(odd):not(:last-of-type) {
+    border-right: 2px solid rgba(27, 27, 27, 0.1);
+  }
+
+}

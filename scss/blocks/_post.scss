@@ -1,0 +1,14 @@
+/* Post */
+
+.post__content {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template: auto / 1fr 1fr;
+  grid-column-gap: 2.5rem;
+  font-size: 1.6rem;
+}
+.post__text {
+  text-indent: 2.5rem;
+  margin: 0 0 1rem;
+}
